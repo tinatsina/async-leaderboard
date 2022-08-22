@@ -1,0 +1,59 @@
+h1,
+h2,
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.display-block-left,
+.display-block-right {
+  width: 50%;
+}
+
+.display-block-left > h2 {
+  display: inline-block;
+  width: 45%;
+}
+
+.display-block-left > form {
+  display: inline-block;
+}
+
+.leaderboard-list > ul > li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.leaderboard-list > ul > li:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.leaderboard-list > ul > li > p {
+  width: 50%;
+}
+
+#input-name {
+  margin: 3em;
+  width: 50%;
+  display: block;
+  height: 2.5em;
+}
+
+#input-score {
+  margin: 3em;
+  width: 50%;
+  display: block;
+  height: 2.5em;
+}
+
+.button-submit {
+  width: 7em;
+  display: block;
+  height: 2.5em;
+  float: right;
+  margin-right: 42%;
+}

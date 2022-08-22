@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Async Leaderboard</title>
+</head>
+<body>
+  <section>
+    <div class="leaderboard-container">
+      <h1 class="leaderboard-heading">Leaderboard</h1>
+      <div class="flex-container">
+        <div class="display-block-left">
+          <h2>Recent Scores</h2>
+          <form method="post" class="form-refresh">
+            <button type="submit">Refresh</button>
+          </form>
+          <div class="leaderboard-list">
+            <!-- Auto Inject JS Code here -->
+            <!-- Framework Sample Below -->
+            <ul>
+              <li>
+                <p class="list-name">Tshaka Zulu</p>
+                <p class="list-score">187</p>
+              </li>
+              <li>
+                <p class="list-name">Alpha Blondie</p>
+                <p class="list-score">456</p>
+              </li>
+              <li>
+                <p class="list-name">Good Name</p>
+                <p class="list-score">908</p>
+              </li>
+              <li>
+                <p class="list-name">Jack Baur</p>
+                <p class="list-score">954</p>
+              </li>
+              <li>
+                <p class="list-name">John Snow</p>
+                <p class="list-score">754</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="display-block-right">
+          <h2>Add your score</h2>
+          <form method="post">
+            <input type="text" id="input-name" title="Enter your name" placeholder="Enter your name">
+            <input type="text" id="input-score" title="Enter your score" placeholder="Enter your score">
+            <button type="submit" class="button-submit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
