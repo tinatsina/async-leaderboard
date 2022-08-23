@@ -1,7 +1,7 @@
 import listLoader from './listLoader.js';
 import listPush from './listPush.js';
 
-export default function eventListeners() {
+const eventListeners = () => {
   document.addEventListener('DOMContentLoaded', () => {
     const buttonUpdate = document.querySelector('.button-submit');
     const buttonRefresh = document.querySelector('.button-refresh');
@@ -14,4 +14,6 @@ export default function eventListeners() {
       listLoader();
     });
   });
-}
+};
+
+export default eventListeners;

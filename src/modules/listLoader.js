@@ -13,9 +13,11 @@ const fetchLeaderBoard = async (list) => {
   });
 };
 
-export default function listLoader() {
+const listLoader = () => {
   document.addEventListener('DOMContentLoaded', () => {
     const list = document.querySelector('.js-list-loader');
     fetchLeaderBoard(list);
   });
-}
+};
+
+export default listLoader;
