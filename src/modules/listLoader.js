@@ -1,10 +1,3 @@
-export default function listLoader() {
-  document.addEventListener('DOMContentLoaded', () => {
-    const list = document.querySelector('.js-list-loader');
-    fetchLeaderBoard(list);
-  });
-}
-
 function fetchLeaderBoard(list) {
   fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/fjsAKla7v4whxFIG6uwc/scores/', {
     method: 'GET',
@@ -23,4 +16,11 @@ function fetchLeaderBoard(list) {
         `;
       });
     });
+}
+
+export default function listLoader() {
+  document.addEventListener('DOMContentLoaded', () => {
+    const list = document.querySelector('.js-list-loader');
+    fetchLeaderBoard(list);
+  });
 }

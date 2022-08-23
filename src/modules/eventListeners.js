@@ -1,4 +1,5 @@
 import listLoader from './listLoader.js';
+import listPush from './listPush.js';
 
 export default function eventListeners() {
   document.addEventListener('DOMContentLoaded', () => {
@@ -6,7 +7,7 @@ export default function eventListeners() {
     const buttonRefresh = document.querySelector('.button-refresh');
 
     buttonUpdate.addEventListener('click', () => {
-      alert('Update Clicked');
+      listPush();
     });
 
     buttonRefresh.addEventListener('click', () => {

@@ -36,14 +36,14 @@ p {
   width: 50%;
 }
 
-#input-name {
+.input-name {
   margin: 3em;
   width: 50%;
   display: block;
   height: 2.5em;
 }
 
-#input-score {
+.input-score {
   margin: 3em;
   width: 50%;
   display: block;
