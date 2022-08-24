@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List
+# Simple Leaderboard
 
-> Simple to-do-list made using webpack
+> Classic leaderboard list built for keeping track of scores etc.
 
 ## Built With
 
@@ -11,15 +11,6 @@
 - Javascript
 - Markdown
 - WebPack
-
-## Live Demo
-
-> The live deploment of this website can seen via the 'npm' ***gh-pages*** view \
-> The deployment will be a to-do-list \
-
-## [Live Demo Link](https://tinatsina.github.io/to-do-list/)
-
-![The image](img/001.png)
 
 ## Getting Started
 
