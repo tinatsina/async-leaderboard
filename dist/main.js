@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.css */ \"./src/style/style.css\");\n/* harmony import */ var _modules_listLoader_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/listLoader.js */ \"./src/modules/listLoader.js\");\n/* harmony import */ var _modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/eventListeners.js */ \"./src/modules/eventListeners.js\");\n/* harmony import */ var _img_000_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/000.jpg */ \"./src/img/000.jpg?9677\");\n\n\n\n\n(0,_modules_listLoader_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n(0,_modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/style.css */ \"./src/style/style.css\");\n/* harmony import */ var _modules_listLoader_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/listLoader.js */ \"./src/modules/listLoader.js\");\n/* harmony import */ var _modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/eventListeners.js */ \"./src/modules/eventListeners.js\");\n\n\n\n(0,_modules_listLoader_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n(0,_modules_eventListeners_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
 
 /***/ }),
 
@@ -56,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../img/000.jpg */ \"./src/img/000.jpg?4086\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\\n\\nh1,\\nh2,\\np {\\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\\n}\\n\\n.leaderboard-heading {\\n  text-align: center;\\n  font-size: xx-large;\\n}\\n\\n.flex-container {\\n  display: flex;\\n}\\n\\n.display-block-left,\\n.display-block-right {\\n  width: 50%;\\n}\\n\\n.display-block-left > h2 {\\n  display: inline-block;\\n  width: 45%;\\n}\\n\\n.display-block-left > form {\\n  display: inline-block;\\n}\\n\\n.leaderboard-list > ul > li {\\n  list-style-type: none;\\n  display: flex;\\n  flex-direction: row;\\n}\\n\\n.leaderboard-list > ul > li:nth-child(odd) {\\n  background-color: #ccc;\\n}\\n\\n.leaderboard-list > ul > li > p {\\n  width: 50%;\\n}\\n\\n.input-name {\\n  margin: 3em;\\n  width: 50%;\\n  display: block;\\n  height: 2.5em;\\n}\\n\\n.input-score {\\n  margin: 3em;\\n  width: 50%;\\n  display: block;\\n  height: 2.5em;\\n}\\n\\n.button-submit {\\n  width: 7em;\\n  display: block;\\n  height: 2.5em;\\n  float: right;\\n  margin-right: 42%;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n  background-image: url('https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg');\\n  background-repeat: no-repeat;\\n  background-size: cover;\\n}\\n\\nh1,\\nh2,\\np {\\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\\n  color: #ccc;\\n}\\n\\n.leaderboard-heading {\\n  text-align: center;\\n  font-size: xx-large;\\n}\\n\\n.flex-container {\\n  display: flex;\\n}\\n\\n.display-block-left,\\n.display-block-right {\\n  width: 50%;\\n}\\n\\n.display-block-left > h2 {\\n  display: inline-block;\\n  width: 45%;\\n}\\n\\n.display-block-right > h2 {\\n  text-align: center;\\n}\\n\\n.button-refresh {\\n  width: 10em;\\n  height: 3em;\\n  border-radius: 2em;\\n}\\n\\n.display-block-left > form {\\n  display: inline-block;\\n}\\n\\n.leaderboard-list > ul > li {\\n  list-style-type: none;\\n  display: flex;\\n  flex-direction: row;\\n}\\n\\n.leaderboard-list > ul > li:nth-child(odd) {\\n  background-color: rgb(221, 77, 77);\\n}\\n\\n.leaderboard-list > ul > li > p {\\n  width: 50%;\\n}\\n\\n.input-name {\\n  margin: 3em;\\n  width: 50%;\\n  display: block;\\n  height: 2.5em;\\n}\\n\\n.input-score {\\n  margin: 3em;\\n  width: 50%;\\n  display: block;\\n  height: 2.5em;\\n}\\n\\n.button-submit {\\n  width: 7em;\\n  display: block;\\n  height: 2.5em;\\n  float: right;\\n  margin-right: 42%;\\n  border-radius: 2em;\\n}\\n\\n.button-refresh:hover {\\n  background-color: rgb(221, 77, 77);\\n}\\n\\n.button-submit:hover {\\n  background-color: rgb(221, 77, 77);\\n}\\n\\n.js-list-loader {\\n  margin: auto;\\n  padding: 0;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -70,16 +70,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://to-do-list/./node_modules/css-loader/dist/runtime/getUrl.js?");
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
@@ -87,16 +77,6 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://to-do-list/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
-
-/***/ }),
-
-/***/ "./src/img/000.jpg?9677":
-/*!*************************!*\
-  !*** ./src/img/000.jpg ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"41a7e6c43d12b4b9df79bdaa9ee94ef3.jpg\");\n\n//# sourceURL=webpack://to-do-list/./src/img/000.jpg?");
 
 /***/ }),
 
@@ -168,16 +148,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://to-do-list/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
 
-/***/ }),
-
-/***/ "./src/img/000.jpg?4086":
-/*!*************************!*\
-  !*** ./src/img/000.jpg ***!
-  \*************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"63fdc5f22e87545df719.jpg\";\n\n//# sourceURL=webpack://to-do-list/./src/img/000.jpg?");
-
 /***/ })
 
 /******/ 	});
@@ -206,9 +176,6 @@ eval("module.exports = __webpack_require__.p + \"63fdc5f22e87545df719.jpg\";\n\n
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -234,18 +201,6 @@ eval("module.exports = __webpack_require__.p + \"63fdc5f22e87545df719.jpg\";\n\n
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -260,52 +215,6 @@ eval("module.exports = __webpack_require__.p + \"63fdc5f22e87545df719.jpg\";\n\n
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
