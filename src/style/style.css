@@ -1,7 +1,19 @@
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/531/951/621/digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1,
 h2,
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ccc;
+}
+
+.leaderboard-heading {
+  text-align: center;
+  font-size: xx-large;
 }
 
 .flex-container {
@@ -18,6 +30,16 @@ p {
   width: 45%;
 }
 
+.display-block-right > h2 {
+  text-align: center;
+}
+
+.button-refresh {
+  width: 10em;
+  height: 3em;
+  border-radius: 2em;
+}
+
 .display-block-left > form {
   display: inline-block;
 }
@@ -29,7 +51,7 @@ p {
 }
 
 .leaderboard-list > ul > li:nth-child(odd) {
-  background-color: #ccc;
+  background-color: rgb(221, 77, 77);
 }
 
 .leaderboard-list > ul > li > p {
@@ -56,4 +78,18 @@ p {
   height: 2.5em;
   float: right;
   margin-right: 42%;
+  border-radius: 2em;
+}
+
+.button-refresh:hover {
+  background-color: rgb(221, 77, 77);
+}
+
+.button-submit:hover {
+  background-color: rgb(221, 77, 77);
+}
+
+.js-list-loader {
+  margin: auto;
+  padding: 0;
 }
